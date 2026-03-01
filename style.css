@@ -13,6 +13,10 @@
   width: 100%;             /* full screen background */
   display: flex;
   justify-content: flex-start; /* align navbar container to left of screen */
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  background: white;
   
 }
 
@@ -1296,4 +1300,5 @@
     height: 32px;
     font-size: 16px;
   }
+
 }
